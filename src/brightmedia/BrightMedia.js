@@ -79,14 +79,14 @@ const BrightMedia = () => {
         </div>
       </section>
 
-      <main id="main">
+      <div id="main">
         <section id="features" className="features">
           <div className="container">
-            <div className="section-title" data-aos="fade-up">
+            <div className="section-title">
               <h2>Features</h2>
               <p>Check The Features</p>
             </div>
-            <div className="row" data-aos="fade-left">
+            <div className="row">
               <div className="col-lg-3 col-md-4">
                 <div
                   className="icon-box"
@@ -267,11 +267,11 @@ const BrightMedia = () => {
             </div>
           </div>
         </section>
-      </main>
+      </div>
 
       <section id="counts" className="counts">
         <div className="container">
-          <div className="row" data-aos="fade-up">
+          <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="count-box">
                 <i className="bi bi-newspaper"></i>
@@ -326,7 +326,7 @@ const BrightMedia = () => {
       {/* <!-- End Counts Section -->
       <!-- ======= Testimonials Section ======= -->
       <!-- */}
-      <section id="testimonials" className="testimonials">
+      {/* <section id="testimonials" className="testimonials">
         <div className="container">
           <div
             className="testimonials-slider swiper-container"
@@ -401,17 +401,17 @@ const BrightMedia = () => {
             <div className="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <!-- ======= Team Section ======= -->
       <!-- */}
-      <section id="team" className="team">
+      {/* <section id="team" className="team">
         <div className="container">
-          <div className="section-title" data-aos="fade-up">
+          <div className="section-title">
             <h2>Team</h2>
             <p>Our Great Team</p>
           </div>
-          <div className="row" data-aos="fade-left">
+          <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="member" data-aos="zoom-in" data-aos-delay="100">
                 <div className="pic">
@@ -443,7 +443,7 @@ const BrightMedia = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
-              <div className="member" data-aos="zoom-in" data-aos-delay="200">
+              <div className="member">
                 <div className="pic">
                   <img
                     src="assets/img/team/team-2.jpg"
@@ -473,7 +473,7 @@ const BrightMedia = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div className="member" data-aos="zoom-in" data-aos-delay="300">
+              <div className="member">
                 <div className="pic">
                   <img
                     src="assets/img/team/team-3.jpg"
@@ -503,7 +503,7 @@ const BrightMedia = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div className="member" data-aos="zoom-in" data-aos-delay="400">
+              <div className="member">
                 <div className="pic">
                   <img
                     src="assets/img/team/team-4.jpg"
@@ -532,8 +532,8 @@ const BrightMedia = () => {
             </div>
           </div>
         </div>
-        {/* <!-- End Team Section --> */}
-      </section>
+        
+      </section> */}
       {/* <!-- End #main --> */}
       {/* 
     <!-- ======= Footer ======= --> */}

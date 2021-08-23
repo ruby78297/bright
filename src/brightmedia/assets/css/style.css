@@ -567,7 +567,6 @@ section {
 .section-title {
   display: block;
   padding-bottom: 40px;
-  border: 5px solid red;
 }
 
 .section-title h2 {
@@ -968,6 +967,7 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
+  border: 2px solid red;
 }
 
 .testimonials::before {
