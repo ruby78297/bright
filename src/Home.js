@@ -1,8 +1,8 @@
 import React from "react";
-import "./assets/css/style.css";
-import "./assets/vendor/aos/aos.css";
-import "./assets/vendor/bootstrap/css/bootstrap.min.css";
-import assetImg from "./assets/img/mockup3.png";
+import "./Assets/css/style.css";
+import "./Assets/vendor/aos/aos.css";
+import "./Assets/vendor/bootstrap/css/bootstrap.min.css";
+import assetImg from "./Assets/img/mockup3.png";
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
