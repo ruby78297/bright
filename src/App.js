@@ -19,6 +19,12 @@ function App() {
         <Route path="/brightmedia" exact>
           <BrightMedia />
         </Route>
+        <Route path="/privacy" exact>
+          <Privacy />
+        </Route>
+        <Route path="/terms" exact>
+          <Terms />
+        </Route>
 
         {/* <Route exact path="/privacy" component={Privacy}/>
        <Route exact path="/terms" component={Terms}/> */}

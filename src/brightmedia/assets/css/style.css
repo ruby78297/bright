@@ -233,6 +233,15 @@ h6 {
   left: 100%;
   visibility: visible;
 }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+.mobile-menu-icon {
+  display: none;
+}
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -256,6 +265,35 @@ h6 {
 }
 
 @media (max-width: 991px) {
+  .nav-list {
+    display: none;
+  }
+  .mobile-nav-list {
+    display: block;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    background-color: teal;
+    top: 75px;
+    left: 0;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+
+    font-size: 30px;
+    color: rgb(225, 220, 255);
+
+    background-color: rgb(19, 20, 20, 0);
+
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
+
   .mobile-nav-toggle {
     display: block;
   }

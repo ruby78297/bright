@@ -11,7 +11,7 @@ const Home = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
-              <div data-aos="zoom-out">
+              <div>
                 <h1>
                   NEWS. MEDIA. STORIES.
                   <br />
