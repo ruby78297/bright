@@ -23,7 +23,7 @@ const Home = () => {
                     <button className="btn-get-started"> Get Bright </button>
                   </Link>
                   <Link to="tbb-token">
-                    <button className="btn-get-started">Tbb Token</button>
+                    <button className="btn-get-started">Bright Token</button>
                   </Link>
 
                   <br />
@@ -79,7 +79,7 @@ const Home = () => {
         <div className="copyright" style={{ float: "left" }}>
           © Copyright{" "}
           <strong>
-            <span>TBB</span>
+            <span>Bright</span>
           </strong>
           . All Rights Reserved
         </div>

@@ -1,0 +1,24 @@
+input[type="text"],
+textarea,
+select {
+  margin-bottom: 25px;
+  box-shadow: 2px;
+  color: black;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  height: auto;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.btn-get {
+  border: none;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: #febe01;
+  font-size: 15px;
+  margin: 30px 0px 0px;
+  width: 25%;
+  text-align: center;
+  border-radius: 50px;
+}

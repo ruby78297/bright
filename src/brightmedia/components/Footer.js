@@ -17,7 +17,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>
-                  <a href="http://mytbb.in/tbbtoken">TBB Rewards</a>
+                  <a href="http://mytbb.in/tbbtoken">Bright Rewards</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>
@@ -150,7 +150,7 @@ const Footer = () => {
         <div className="copyright">
           &copy; Copyright{" "}
           <strong>
-            <span>TBB</span>
+            <span>Bright</span>
           </strong>
           . All Rights Reserved
         </div>

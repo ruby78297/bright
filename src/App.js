@@ -7,6 +7,8 @@ import BrightMedia from "./brightmedia/BrightMedia";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import { Button } from "react-bootstrap";
+import Creator from "./brightmedia/components/Creator/Creator";
+import { BrightToken } from "./BrightToken.js/BrightToken";
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
         </Route>
         <Route path="/terms" exact>
           <Terms />
+        </Route>
+        <Route path="/creator" exact>
+          <Creator />
+        </Route>
+        <Route path="/tbb-token" exact>
+          <BrightToken />
         </Route>
 
         {/* <Route exact path="/privacy" component={Privacy}/>

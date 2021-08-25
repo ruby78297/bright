@@ -165,7 +165,7 @@ const Main = () => {
                 />
                 <h3>
                   <a href="" style={{ paddingLeft: "12px" }}>
-                    TBB rewards
+                    Bright rewards
                   </a>
                 </h3>
               </div>

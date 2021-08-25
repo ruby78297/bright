@@ -5,7 +5,11 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.mobile-list {
+  list-style: none;
+  margin-left: -50px;
+  font-size: large;
+}
 a {
   color: #febe01;
   text-decoration: none;

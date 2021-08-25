@@ -55,7 +55,7 @@ const Counter = () => {
             className="purecounter"
           ></span> */}
               <CountUp end={200} duration={1} />
-              <p>Total TBB Rewards</p>
+              <p>Total Bright Rewards</p>
             </div>
           </div>
         </div>

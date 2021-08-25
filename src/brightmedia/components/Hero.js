@@ -3,7 +3,7 @@ import feature1 from "../assets/img/feature1.png";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
-  const clicking = () => {
+  const clickHandler = () => {
     window.open(
       "https://play.google.com/store/apps/details?id=com.stack_navigation&referrer=utm_source%3Dbmindex%26utm_medium%3Dbutton"
     );
@@ -28,11 +28,11 @@ const Hero = () => {
               </h1>
               <h2>Spreading happiness and positivity</h2>
               <div className="text-center text-lg-start">
-                <Link to="creater">
+                <Link to="creator">
                   <button className="btn-get-started">Become a Creator</button>
                 </Link>
 
-                <button className="btn-get-started" onClick={clicking}>
+                <button className="btn-get-started" onClick={clickHandler}>
                   Get it on Google play
                 </button>
               </div>
