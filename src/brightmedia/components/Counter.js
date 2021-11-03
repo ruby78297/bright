@@ -15,7 +15,7 @@ const Counter = () => {
             data-purecounter-duration="1"
             className="purecounter"
           ></span> */}
-              <CountUp end={24} duration={1} />
+              <CountUp end={500} duration={1} />
               <p>Positive News</p>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Counter = () => {
             data-purecounter-duration="1"
             className="purecounter"
           ></span> */}
-              <CountUp end={15} duration={1} />
+              <CountUp end={100} duration={1} />
               <p>Inspiring Stories</p>
             </div>
           </div>

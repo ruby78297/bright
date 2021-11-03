@@ -1,0 +1,33 @@
+.filter-0 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20% 8% 0% 8%;
+}
+.filter-main {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.filter-li {
+  list-style: none;
+  font-size: 20px;
+}
+#filter-li-2 {
+  justify-content: end;
+  text-align: end;
+}
+@media screen and (max-width: 768px) {
+  .filter-0 {
+    display: none;
+  }
+  .filter-main {
+    display: none;
+  }
+  .filter-li {
+    display: none;
+  }
+  #filter-li-2 {
+    display: none;
+  }
+}

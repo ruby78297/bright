@@ -3,7 +3,7 @@ import "./assets/css/style.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "aos";
 import AOS from "aos";
-import "../Assets/css/style.css";
+import "../assets/css/style.css";
 import "../icomoon/style.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";

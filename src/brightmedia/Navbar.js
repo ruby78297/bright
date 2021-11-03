@@ -13,11 +13,15 @@ const Navbar = () => {
         onClick={() => setIsMobile(false)}
       >
         <Link to="/" className="home">
-          <li>Home</li>
+          <li>Homeeee</li>
         </Link>
-        <Link to="/features" className="features">
+        <Link to="/featuressss" className="features">
           <li>Features</li>
         </Link>
+        <Link to="/features" className="">
+          <li>shop</li>
+        </Link>
+      
       </ul>
       <button
         className="mobile-menu-icon"

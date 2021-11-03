@@ -6,9 +6,49 @@ import Footer from "../Footer";
 import "./Creator.css";
 import "aos";
 import AOS from "aos";
+import { initializeApp } from "firebase/app";
 
 const Creator = () => {
   AOS.init();
+  // const app = initializeApp(firebaseConfig);
+
+  // var firebaseConfig = {
+  //   apiKey: "AIzaSyBBsGF_DOsncoZij-zRM755OtpG8LoKVSc",
+  //   authDomain: "tbbwebsite-1b79c.firebaseapp.com",
+  //   databaseURL: "https://tbbwebsite-1b79c-default-rtdb.firebaseio.com",
+  //   projectId: "tbbwebsite-1b79c",
+  //   storageBucket: "tbbwebsite-1b79c.appspot.com",
+  //   messagingSenderId: "501940823741",
+  //   appId: "1:501940823741:web:8eb7ad2604b69376f3b9d4",
+  //   measurementId: "G-6Z2LR66GJ7",
+  // };
+  // // // Initialize Firebase
+  // // firebase.initializeApp(firebaseConfig);
+  // // firebase.analytics();
+  // var database = firebase.database();
+
+  // const writeUserData = () => {
+  //   var name = document.getElementById("inputName").value;
+  //   var email = document.getElementById("inputEmail").value;
+  //   database
+  //     .ref("Creators/")
+  //     .push()
+  //     .set(
+  //       {
+  //         Name: name,
+  //         Email: email,
+  //       },
+  //       (error) => {
+  //         if (error) {
+  //           alert("An error is Occurred");
+  //           window.location.reload();
+  //         } else {
+  //           alert("Data Saved Successfully");
+  //           window.location.reload();
+  //         }
+  //       }
+  //     );
+  // };
   return (
     <div>
       <Header />
@@ -92,9 +132,7 @@ const Creator = () => {
                   <a href="terms">Terms and Conditions.</a>
                 </p>
                 <div className="text-center">
-                  <button className="btn-get" onclick="writeUserData">
-                    Become creator
-                  </button>
+                  <button className="btn-get">Become creator</button>
                 </div>
               </div>
             </div>

@@ -53,9 +53,20 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <Link className="nav-link scrollto" to="/brightmedia/blog">
+                Blog
+              </Link>
+            </li>
+
+            <li>
               <a className="nav-link scrollto" href="#features">
                 Features
               </a>
+            </li>
+            <li>
+              <Link className="nav-link scrollto" to="shop">
+                Shop
+              </Link>
             </li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle" onClick={openModal}></i>
@@ -89,6 +100,18 @@ const Header = () => {
                     style={{ color: "black" }}
                   >
                     Features
+                  </a>
+                </li>
+              </Link>
+              <Link to="shop">
+                {" "}
+                <li>
+                  <a
+                    className="nav-link scrollto"
+                    href="#shop"
+                    style={{ color: "black" }}
+                  >
+                    Shop
                   </a>
                 </li>
               </Link>

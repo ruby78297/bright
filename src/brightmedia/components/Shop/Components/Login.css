@@ -1,0 +1,168 @@
+.login-form {
+  /* border: 2px solid red; */
+  padding: 5% 32%;
+}
+.login-form-child {
+  border: 3px solid rgb(204, 191, 191);
+  padding: 0 5% 5% 5%;
+}
+
+.login-form-header {
+  text-align: center;
+  width: 60%;
+  margin: -22px 20% 0 20%;
+  background-color: black;
+  align-items: center;
+  padding: 5px;
+  border-radius: 2px;
+}
+#shop-logo {
+  width: 90%;
+  height: 60%;
+  margin: 2% 0% 0% 0%;
+}
+.login-btn {
+  background-color: black;
+  color: #ffbf00;
+  width: 100%;
+  padding: 5px;
+  font-size: large;
+  font-weight: 500;
+  margin-top: 3%;
+  border-radius: 2px;
+}
+.social-login-or {
+  text-align: center;
+}
+.social-login-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  text-align: center;
+}
+.social-login-btn {
+  background-color: black;
+  color: #ffbf00;
+  width: 100%;
+  padding: 5px;
+  font-size: large;
+  font-weight: 500;
+  margin-top: 3%;
+  border-radius: 2px;
+}
+.signup-link {
+  text-align: end;
+}
+.model-open {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.signup-modal {
+  width: 30%;
+  height: 45vh;
+  margin: 10% 35% 0 35%;
+  border: 3px solid black;
+  background-color: rgb(248, 248, 247);
+  z-index: 1000;
+}
+.signup-modal-hader {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+.signup-modal-form {
+  padding: 10px 30px;
+  /* border: 2px solid red; */
+}
+.signup-btn {
+  background-color: black;
+  color: #ffbf00;
+  width: 100%;
+  padding: 3px;
+  font-size: large;
+  font-weight: 500;
+  margin-top: 8%;
+  border-radius: 2px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) and (min-width: 800px) {
+  .login-form {
+    /* border: 2px solid red; */
+    padding: 5% 25%;
+  }
+  .signup-modal {
+    width: 52%;
+    height: 40vh;
+    margin: 15% 24% 0 24%;
+    border: 3px solid black;
+    background-color: rgb(248, 248, 247);
+    z-index: 1000;
+  }
+}
+@media screen and (max-width: 799px) and (min-width: 500px) {
+  .login-form {
+    /* border: 2px solid red; */
+    padding: 15% 12%;
+  }
+  .signup-modal {
+    width: 52%;
+    height: 38vh;
+    margin: 15% 24% 0 24%;
+    border: 3px solid black;
+    background-color: rgb(248, 248, 247);
+    z-index: 1000;
+  }
+  .signup-modal-hader {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .signup-modal-form {
+    padding: 10px 30px;
+    /* border: 2px solid red; */
+  }
+}
+@media screen and (max-width: 499px) {
+  .login-form {
+    /* border: 2px solid red; */
+    padding: 15% 8%;
+  }
+  .login-form-header {
+    text-align: center;
+
+    width: 80%;
+    margin: -22px 10% 0 10%;
+    background-color: black;
+    align-items: center;
+
+    padding: 5px;
+  }
+  .social-login-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .signup-modal {
+    width: 60%;
+    height: 35vh;
+    margin: 25% 20% 0 20%;
+    border: 3px solid black;
+    background-color: rgb(248, 248, 247);
+    z-index: 1000;
+  }
+  .signup-modal-hader {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .signup-modal-form {
+    padding: 10px 30px;
+    /* border: 2px solid red; */
+  }
+}

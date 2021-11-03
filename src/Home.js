@@ -1,8 +1,8 @@
 import React from "react";
-import "./Assets/css/style.css";
-import "./Assets/vendor/aos/aos.css";
-import "./Assets/vendor/bootstrap/css/bootstrap.min.css";
-import assetImg from "./Assets/img/mockup3.png";
+import "./assets/css/style.css";
+import "./assets/vendor/aos/aos.css";
+import "./assets/vendor/bootstrap/css/bootstrap.min.css";
+import assetImg from "./assets/img/mockup3.png";
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
@@ -15,14 +15,14 @@ const Home = () => {
                 <h1>
                   NEWS. MEDIA. STORIES.
                   <br />
-                  <span>REIMAGINED</span>
+                  <span>REIMAGINED</span> 
                 </h1>
                 <br />
                 <div class="text-center text-lg-start">
                   <Link to="brightmedia">
                     <button className="btn-get-started"> Get Bright </button>
                   </Link>
-                  <Link to="tbb-token">
+                  <Link to="tbt">
                     <button className="btn-get-started">Bright Token</button>
                   </Link>
 
